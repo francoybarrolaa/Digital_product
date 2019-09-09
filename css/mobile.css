@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+
+  .products{
+    display: inherit;
+    padding: 5%;
+  }
+
+  .product{
+    margin-top: auto;
+  }
+
+  .benefits{
+    display: inherit;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .benefit{
+    padding-top: 30%;
+  }
+
+  .mention{
+    margin-top: -70px;
+    display: inherit;
+    padding: 20%;
+  }
+
+  .card{
+    padding:1%;
+  }
+
+
+}

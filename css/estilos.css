@@ -1,0 +1,191 @@
+/* Variables ------------------------ */
+:root{
+  --blue-color:#326dc1;
+  --black-color:#313337;
+  --lightgrey-color:#C1BCBC;
+  --darkgrey-color:#434447;
+  --white-color:#FFFFFF;
+  /* Box Shadow ------------------------ */
+  --box:0px 2px 3px var(--lightgrey-color);
+}
+/* Variables ------------------------ */
+
+
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+/* Navbar ------------------------ */
+nav{
+  display: flex;
+  background-color: var(--blue-color);
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.brand_image{
+  cursor: pointer;
+}
+
+
+
+/* Main section ------------------------ */
+.main_section{
+  padding: 5%;
+  text-align: center;
+}
+
+.products{
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+  background-image: url("../images/curve.png");
+}
+
+.product{
+  padding: 10px;
+  margin-top: -280px;
+}
+.product .content{
+  background-color: var(--white-color);
+  padding: 10px;
+  box-shadow: 2px 2px 10px var(--lightgrey-color);
+}
+.img_content{
+  text-align: center;
+}
+
+.main_button{
+  background-color: var(--blue-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius:1px;
+}
+
+.main_button:hover{
+  background-color: #163869;
+}
+
+/*  Beneficios ------------------------ */
+.benefits{
+  background-position: center top;
+  display: flex;
+  padding: 15%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.benefit{
+  padding: 2%;
+  margin-top: -25%;
+}
+
+.benefits .benefit p {
+text-align: left;
+}
+
+/* Recomended ------------------------ */
+.mentions{
+  text-align: center;
+}
+
+.mention{
+display: flex;
+padding: 5%  10% 5% 10%;
+}
+
+.card{
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px var(--lightgrey-color);
+  text-align: left;
+}
+
+.card .img_mention img{
+  width: 100%;
+}
+
+.card .text img {
+    padding: 5px 10px 5px 10px;
+}
+
+/* footer ------------------------ */
+footer {
+    display: flex;
+    background: var(--darkgrey-color);
+    padding: 20px;
+    color: var(--white-color);
+    justify-content: space-between;
+  }
+
+  /* Ventas ------------------------ */
+.container{
+  padding: 165px 0px 165px 165px;
+}
+
+.modulo_pago4{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: 10px;
+  height: 260px;
+}
+
+.modulo_pago8{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: 16px 16px 16px 16px;
+  width: 336px;
+}
+
+.modulo_pago_image{
+  text-align: center;
+}
+
+.modulo_pago8 input{
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+.main_btn{
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 17px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 2px;
+  margin-left: 1.5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.button:hover{
+  background-color: #163869;
